@@ -1,0 +1,329 @@
+{
+  "@context" : [ "http://www.w3.org/ns/anno.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+  "id" : "https://iiif.europeana.eu/presentation/9200333/BibliographicResource_3000059026282/manifest",
+  "type" : "Manifest",
+  "within" : [ {
+    "id" : "http://data.theeuropeanlibrary.org/Collection/a0615",
+    "type" : "Collection"
+  } ],
+  "label" : {
+    "@none" : [ "Bote für Tirol - 1891-12-28" ]
+  },
+  "metaData" : [ {
+    "label" : {
+      "en" : [ "type" ]
+    },
+    "value" : {
+      "@none" : [ "<a href='http://data.europeana.eu/concept/18'>http://data.europeana.eu/concept/18</a>" ],
+      "de" : [ "Zeitung" ],
+      "ru" : [ "Газета" ],
+      "fi" : [ "Sanomalehti" ],
+      "pt" : [ "Jornal" ],
+      "bg" : [ "Вестник" ],
+      "lt" : [ "Laikraštis" ],
+      "lv" : [ "Laikraksts" ],
+      "hr" : [ "Novine" ],
+      "fr" : [ "Journal" ],
+      "hu" : [ "Újság" ],
+      "sk" : [ "Denník" ],
+      "sl" : [ "Časopis" ],
+      "ga" : [ "Nuachtán" ],
+      "ca" : [ "Periòdic" ],
+      "sv" : [ "Tidning" ],
+      "mt" : [ "Gazzetta" ],
+      "el" : [ "Εφημερίδα" ],
+      "en" : [ "Newspaper" ],
+      "it" : [ "Giornale" ],
+      "es" : [ "Periódico" ],
+      "et" : [ "Ajaleht" ],
+      "cs" : [ "Noviny" ],
+      "pl" : [ "Gazeta" ],
+      "ro" : [ "Ziar" ],
+      "da" : [ "Avis" ],
+      "nl" : [ "Krant" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "type" ]
+    },
+    "value" : {
+      "@none" : [ "<a href='http://schema.org/PublicationIssue'>http://schema.org/PublicationIssue</a>" ],
+      "en" : [ "Analytic serial", "Newspaper", "Newspaper Issue" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "language" ]
+    },
+    "value" : {
+      "@none" : [ "deu" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "source" ]
+    },
+    "value" : {
+      "@none" : [ "<a href='http://dza.tessmann.it/tessmannPortal/Zeitungsarchiv/Tagesausgabe/Zeitung/47/28.12.1891'>http://dza.tessmann.it/tessmannPortal/Zeitungsarchiv/Tagesausgabe/Zeitung/47/28.12.1891</a>" ]
+    }
+  } ],
+  "thumbnail" : [ {
+    "id" : "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fiiif.europeana.eu%2Fimage%2FXJ2VAPGLG3AN2FH5K54TWUENYWALUQFHRG4NEL74XJAE5NH54H4A%2Fpresentation_images%2F51d932a0-034e-11e6-95c4-fa163e60dd72%2Fnode-1%2Fimage%2FLFT%2FBote_f%C3%BCr_Tirol%2F1891%2F12%2F28%2FBTV_18911228_01%2Ffull%2Ffull%2F0%2Fdefault.jpg&type=TEXT",
+    "type" : "Image"
+  } ],
+  "homepage" : [ {
+    "id" : "https://www.europeana.eu/item/9200333/BibliographicResource_3000059026282",
+    "type" : "Text",
+    "label" : {
+      "en" : [ "Europeana" ]
+    },
+    "format" : "text/html"
+  } ],
+  "navDate" : "1891-12-28T00:00:00Z",
+  "requiredStatement" : {
+    "en" : [ "<link rel='stylesheet' type='text/css' href='https://api.europeana.eu/attribution/style.css'/><dl class='europeana-attribution' lang='en'><dt>Title</dt><dd lang=''><a href='http://data.europeana.eu/item/9200333/BibliographicResource_3000059026282' target='_blank' rel='noopener'>Bote für Tirol - 1891-12-28</a></dd><dt>Institution</dt><dd lang=''>Teßmann Library</dd><dt>Country</dt><dd lang=''>Germany</dd><dt>Rights</dt><dd><a href='http://creativecommons.org/publicdomain/mark/1.0/' target='_blank' rel='noopener'><span class='icon-pd'/>Public Domain Mark</a></dd></dl>" ]
+  },
+  "rights" : {
+    "id" : "http://creativecommons.org/publicdomain/mark/1.0/",
+    "type" : "Text",
+    "format" : "text/html"
+  },
+  "seeAlso" : [ {
+    "id" : "https://www.europeana.eu/api/v2/record/9200333/BibliographicResource_3000059026282.json-ld",
+    "type" : "Dataset",
+    "format" : "application/ld+json",
+    "profile" : "http://www.europeana.eu/schemas/edm/"
+  }, {
+    "id" : "https://www.europeana.eu/api/v2/record/9200333/BibliographicResource_3000059026282.json",
+    "type" : "Dataset",
+    "format" : "application/json",
+    "profile" : "http://www.europeana.eu/schemas/edm/"
+  }, {
+    "id" : "https://www.europeana.eu/api/v2/record/9200333/BibliographicResource_3000059026282.rdf",
+    "type" : "Dataset",
+    "format" : "application/rdf+xml",
+    "profile" : "http://www.europeana.eu/schemas/edm/"
+  } ],
+  "service" : [ {
+    "@context" : "http://iiif.io/api/search/1/context.json",
+    "id" : "https://iiif.europeana.eu/presentation/9200333/BibliographicResource_3000059026282/search",
+    "profile" : "http://iiif.io/api/search/1/search"
+  } ],
+  "start" : {
+    "id" : "https://iiif.europeana.eu/presentation/9200333/BibliographicResource_3000059026282/canvas/p1",
+    "type" : "Canvas"
+  },
+  "items" : [ {
+    "id" : "https://iiif.europeana.eu/presentation/9200333/BibliographicResource_3000059026282/canvas/p1",
+    "type" : "Canvas",
+    "label" : {
+      "@none" : [ "p. 1" ]
+    },
+    "height" : 1969,
+    "width" : 1672,
+    "requiredStatement" : {
+      "en" : [ "<link rel='stylesheet' type='text/css' href='https://api.europeana.eu/attribution/style.css'/><dl class='europeana-attribution' lang='en'><dt>Title</dt><dd lang=''><a href='http://data.europeana.eu/item/9200333/BibliographicResource_3000059026282' target='_blank' rel='noopener'>Bote für Tirol - 1891-12-28</a></dd><dt>Institution</dt><dd lang=''>Teßmann Library</dd><dt>Country</dt><dd lang=''>Germany</dd><dt>Rights</dt><dd><a href='http://creativecommons.org/publicdomain/mark/1.0/' target='_blank' rel='noopener'><span class='icon-pd'/>Public Domain Mark</a></dd></dl>" ]
+    },
+    "items" : [ {
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://iiif.europeana.eu/image/XJ2VAPGLG3AN2FH5K54TWUENYWALUQFHRG4NEL74XJAE5NH54H4A/presentation_images/51d932a0-034e-11e6-95c4-fa163e60dd72/node-1/image/LFT/Bote_für_Tirol/1891/12/28/BTV_18911228_01/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "id" : "https://iiif.europeana.eu/image/XJ2VAPGLG3AN2FH5K54TWUENYWALUQFHRG4NEL74XJAE5NH54H4A/presentation_images/51d932a0-034e-11e6-95c4-fa163e60dd72/node-1/image/LFT/Bote_für_Tirol/1891/12/28/BTV_18911228_01",
+            "profile" : "http://iiif.io/api/image/2/level1.json",
+            "type" : "ImageService3"
+          }
+        },
+        "target" : "https://iiif.europeana.eu/presentation/9200333/BibliographicResource_3000059026282/canvas/p1"
+      } ]
+    } ],
+    "annotations" : [ {
+      "id" : "https://iiif.europeana.eu/presentation/9200333/BibliographicResource_3000059026282/annopage/1",
+      "type" : "AnnotationPage"
+    } ]
+  }, {
+    "id" : "https://iiif.europeana.eu/presentation/9200333/BibliographicResource_3000059026282/canvas/p2",
+    "type" : "Canvas",
+    "label" : {
+      "@none" : [ "p. 2" ]
+    },
+    "height" : 1969,
+    "width" : 1672,
+    "requiredStatement" : {
+      "en" : [ "<link rel='stylesheet' type='text/css' href='https://api.europeana.eu/attribution/style.css'/><dl class='europeana-attribution' lang='en'><dt>Title</dt><dd lang=''><a href='http://data.europeana.eu/item/9200333/BibliographicResource_3000059026282' target='_blank' rel='noopener'>Bote für Tirol - 1891-12-28</a></dd><dt>Institution</dt><dd lang=''>Teßmann Library</dd><dt>Country</dt><dd lang=''>Germany</dd><dt>Rights</dt><dd><a href='http://creativecommons.org/publicdomain/mark/1.0/' target='_blank' rel='noopener'><span class='icon-pd'/>Public Domain Mark</a></dd></dl>" ]
+    },
+    "items" : [ {
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://iiif.europeana.eu/image/XJ2VAPGLG3AN2FH5K54TWUENYWALUQFHRG4NEL74XJAE5NH54H4A/presentation_images/51d932a0-034e-11e6-95c4-fa163e60dd72/node-1/image/LFT/Bote_für_Tirol/1891/12/28/BTV_18911228_02/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "id" : "https://iiif.europeana.eu/image/XJ2VAPGLG3AN2FH5K54TWUENYWALUQFHRG4NEL74XJAE5NH54H4A/presentation_images/51d932a0-034e-11e6-95c4-fa163e60dd72/node-1/image/LFT/Bote_für_Tirol/1891/12/28/BTV_18911228_02",
+            "profile" : "http://iiif.io/api/image/2/level1.json",
+            "type" : "ImageService3"
+          }
+        },
+        "target" : "https://iiif.europeana.eu/presentation/9200333/BibliographicResource_3000059026282/canvas/p2"
+      } ]
+    } ],
+    "annotations" : [ {
+      "id" : "https://iiif.europeana.eu/presentation/9200333/BibliographicResource_3000059026282/annopage/2",
+      "type" : "AnnotationPage"
+    } ]
+  }, {
+    "id" : "https://iiif.europeana.eu/presentation/9200333/BibliographicResource_3000059026282/canvas/p3",
+    "type" : "Canvas",
+    "label" : {
+      "@none" : [ "p. 3" ]
+    },
+    "height" : 1969,
+    "width" : 1672,
+    "requiredStatement" : {
+      "en" : [ "<link rel='stylesheet' type='text/css' href='https://api.europeana.eu/attribution/style.css'/><dl class='europeana-attribution' lang='en'><dt>Title</dt><dd lang=''><a href='http://data.europeana.eu/item/9200333/BibliographicResource_3000059026282' target='_blank' rel='noopener'>Bote für Tirol - 1891-12-28</a></dd><dt>Institution</dt><dd lang=''>Teßmann Library</dd><dt>Country</dt><dd lang=''>Germany</dd><dt>Rights</dt><dd><a href='http://creativecommons.org/publicdomain/mark/1.0/' target='_blank' rel='noopener'><span class='icon-pd'/>Public Domain Mark</a></dd></dl>" ]
+    },
+    "items" : [ {
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://iiif.europeana.eu/image/XJ2VAPGLG3AN2FH5K54TWUENYWALUQFHRG4NEL74XJAE5NH54H4A/presentation_images/51d932a0-034e-11e6-95c4-fa163e60dd72/node-1/image/LFT/Bote_für_Tirol/1891/12/28/BTV_18911228_03/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "id" : "https://iiif.europeana.eu/image/XJ2VAPGLG3AN2FH5K54TWUENYWALUQFHRG4NEL74XJAE5NH54H4A/presentation_images/51d932a0-034e-11e6-95c4-fa163e60dd72/node-1/image/LFT/Bote_für_Tirol/1891/12/28/BTV_18911228_03",
+            "profile" : "http://iiif.io/api/image/2/level1.json",
+            "type" : "ImageService3"
+          }
+        },
+        "target" : "https://iiif.europeana.eu/presentation/9200333/BibliographicResource_3000059026282/canvas/p3"
+      } ]
+    } ],
+    "annotations" : [ {
+      "id" : "https://iiif.europeana.eu/presentation/9200333/BibliographicResource_3000059026282/annopage/3",
+      "type" : "AnnotationPage"
+    } ]
+  }, {
+    "id" : "https://iiif.europeana.eu/presentation/9200333/BibliographicResource_3000059026282/canvas/p4",
+    "type" : "Canvas",
+    "label" : {
+      "@none" : [ "p. 4" ]
+    },
+    "height" : 1969,
+    "width" : 1672,
+    "requiredStatement" : {
+      "en" : [ "<link rel='stylesheet' type='text/css' href='https://api.europeana.eu/attribution/style.css'/><dl class='europeana-attribution' lang='en'><dt>Title</dt><dd lang=''><a href='http://data.europeana.eu/item/9200333/BibliographicResource_3000059026282' target='_blank' rel='noopener'>Bote für Tirol - 1891-12-28</a></dd><dt>Institution</dt><dd lang=''>Teßmann Library</dd><dt>Country</dt><dd lang=''>Germany</dd><dt>Rights</dt><dd><a href='http://creativecommons.org/publicdomain/mark/1.0/' target='_blank' rel='noopener'><span class='icon-pd'/>Public Domain Mark</a></dd></dl>" ]
+    },
+    "items" : [ {
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://iiif.europeana.eu/image/XJ2VAPGLG3AN2FH5K54TWUENYWALUQFHRG4NEL74XJAE5NH54H4A/presentation_images/51d932a0-034e-11e6-95c4-fa163e60dd72/node-1/image/LFT/Bote_für_Tirol/1891/12/28/BTV_18911228_04/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "id" : "https://iiif.europeana.eu/image/XJ2VAPGLG3AN2FH5K54TWUENYWALUQFHRG4NEL74XJAE5NH54H4A/presentation_images/51d932a0-034e-11e6-95c4-fa163e60dd72/node-1/image/LFT/Bote_für_Tirol/1891/12/28/BTV_18911228_04",
+            "profile" : "http://iiif.io/api/image/2/level1.json",
+            "type" : "ImageService3"
+          }
+        },
+        "target" : "https://iiif.europeana.eu/presentation/9200333/BibliographicResource_3000059026282/canvas/p4"
+      } ]
+    } ],
+    "annotations" : [ {
+      "id" : "https://iiif.europeana.eu/presentation/9200333/BibliographicResource_3000059026282/annopage/4",
+      "type" : "AnnotationPage"
+    } ]
+  }, {
+    "id" : "https://iiif.europeana.eu/presentation/9200333/BibliographicResource_3000059026282/canvas/p5",
+    "type" : "Canvas",
+    "label" : {
+      "@none" : [ "p. 5" ]
+    },
+    "height" : 1969,
+    "width" : 1672,
+    "requiredStatement" : {
+      "en" : [ "<link rel='stylesheet' type='text/css' href='https://api.europeana.eu/attribution/style.css'/><dl class='europeana-attribution' lang='en'><dt>Title</dt><dd lang=''><a href='http://data.europeana.eu/item/9200333/BibliographicResource_3000059026282' target='_blank' rel='noopener'>Bote für Tirol - 1891-12-28</a></dd><dt>Institution</dt><dd lang=''>Teßmann Library</dd><dt>Country</dt><dd lang=''>Germany</dd><dt>Rights</dt><dd><a href='http://creativecommons.org/publicdomain/mark/1.0/' target='_blank' rel='noopener'><span class='icon-pd'/>Public Domain Mark</a></dd></dl>" ]
+    },
+    "items" : [ {
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://iiif.europeana.eu/image/XJ2VAPGLG3AN2FH5K54TWUENYWALUQFHRG4NEL74XJAE5NH54H4A/presentation_images/51d932a0-034e-11e6-95c4-fa163e60dd72/node-1/image/LFT/Bote_für_Tirol/1891/12/28/BTV_18911228_05/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "id" : "https://iiif.europeana.eu/image/XJ2VAPGLG3AN2FH5K54TWUENYWALUQFHRG4NEL74XJAE5NH54H4A/presentation_images/51d932a0-034e-11e6-95c4-fa163e60dd72/node-1/image/LFT/Bote_für_Tirol/1891/12/28/BTV_18911228_05",
+            "profile" : "http://iiif.io/api/image/2/level1.json",
+            "type" : "ImageService3"
+          }
+        },
+        "target" : "https://iiif.europeana.eu/presentation/9200333/BibliographicResource_3000059026282/canvas/p5"
+      } ]
+    } ],
+    "annotations" : [ {
+      "id" : "https://iiif.europeana.eu/presentation/9200333/BibliographicResource_3000059026282/annopage/5",
+      "type" : "AnnotationPage"
+    } ]
+  }, {
+    "id" : "https://iiif.europeana.eu/presentation/9200333/BibliographicResource_3000059026282/canvas/p6",
+    "type" : "Canvas",
+    "label" : {
+      "@none" : [ "p. 6" ]
+    },
+    "height" : 1969,
+    "width" : 1672,
+    "requiredStatement" : {
+      "en" : [ "<link rel='stylesheet' type='text/css' href='https://api.europeana.eu/attribution/style.css'/><dl class='europeana-attribution' lang='en'><dt>Title</dt><dd lang=''><a href='http://data.europeana.eu/item/9200333/BibliographicResource_3000059026282' target='_blank' rel='noopener'>Bote für Tirol - 1891-12-28</a></dd><dt>Institution</dt><dd lang=''>Teßmann Library</dd><dt>Country</dt><dd lang=''>Germany</dd><dt>Rights</dt><dd><a href='http://creativecommons.org/publicdomain/mark/1.0/' target='_blank' rel='noopener'><span class='icon-pd'/>Public Domain Mark</a></dd></dl>" ]
+    },
+    "items" : [ {
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://iiif.europeana.eu/image/XJ2VAPGLG3AN2FH5K54TWUENYWALUQFHRG4NEL74XJAE5NH54H4A/presentation_images/51d932a0-034e-11e6-95c4-fa163e60dd72/node-1/image/LFT/Bote_für_Tirol/1891/12/28/BTV_18911228_06/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "id" : "https://iiif.europeana.eu/image/XJ2VAPGLG3AN2FH5K54TWUENYWALUQFHRG4NEL74XJAE5NH54H4A/presentation_images/51d932a0-034e-11e6-95c4-fa163e60dd72/node-1/image/LFT/Bote_für_Tirol/1891/12/28/BTV_18911228_06",
+            "profile" : "http://iiif.io/api/image/2/level1.json",
+            "type" : "ImageService3"
+          }
+        },
+        "target" : "https://iiif.europeana.eu/presentation/9200333/BibliographicResource_3000059026282/canvas/p6"
+      } ]
+    } ],
+    "annotations" : [ {
+      "id" : "https://iiif.europeana.eu/presentation/9200333/BibliographicResource_3000059026282/annopage/6",
+      "type" : "AnnotationPage"
+    } ]
+  } ],
+  "provider" : [ {
+    "id" : "https://www.europeana.eu/en/about-us",
+    "type" : "Agent",
+    "homepage" : [ {
+      "id" : "https://www.europeana.eu",
+      "type" : "Text",
+      "label" : {
+        "en" : [ "Europeana" ]
+      },
+      "format" : "text/html"
+    } ],
+    "logo" : [ {
+      "id" : "https://style.europeana.eu/images/europeana-logo-default.png",
+      "type" : "Image"
+    } ]
+  } ]
+}
